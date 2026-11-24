@@ -3,7 +3,7 @@
 | Category | Documents |
 | --- | --- |
 | Current state | [Session handoff](SESSION_HANDOFF.md) |
-| Experiments | [Run catalog](experiments/RUN_CATALOG.md), [v3 protocol](experiments/REDUCED_SCHEMA_1325_RUN.md) |
+| Experiments | [Run catalog](experiments/RUN_CATALOG.md), [v4-1325 & v4-5000 report](experiments/V4_5000_RUN.md), [v2-5000 report](experiments/FULL_SCHEMA_V2_5000_RUN.md), [v3 protocol](experiments/REDUCED_SCHEMA_1325_RUN.md) |
 | Data and cleaning | [Dataset versions, cleaning and projection](data/README.md) |
 | Training-label audit | [Detailed continuation brief](data/TRAINING_LABEL_AUDIT_HANDOFF.md) |
 | Evaluation | [Full 100-case evaluation](evaluation/REMAINING_VALIDATION_EVALUATION.md), [20-case source reevaluation](evaluation/SOURCE_GROUNDED_REEVALUATION.md), [original reference evaluation](evaluation/DEEP_EVAL_PAIRED_20.md) |

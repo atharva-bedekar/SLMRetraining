@@ -1,5 +1,19 @@
 # Current session handoff
 
+## V4-1325 and V4-5000 runs, evaluations, and local CLI complete
+
+Updated 24 November 2026. Both regenerated-label FP32 LoRA runs (`v4-1325` and `v4-5000`), their 100-case `gen_rp=1.00_fb1.08` generations, and `gemini-4-hydrogen` (`source_grounded_v2`) 400-measurement evaluations are complete and committed. See [V4_5000_RUN.md](experiments/V4_5000_RUN.md) for the full breakdown.
+
+- **`v4-5000` (`0d520299c998a045`, 5,000 train, 3 epochs / 1,875 steps, `checkpoint-1875` eval loss `0.3347`):**
+  - Deterministic metrics ([summary_comparison.json](../results_v4_5000/comparison/summary_comparison.json)): raw JSON **98/100**, allowed schema **97/100**, strict value F1 **40.17%** (base 1.45%), soft value F1 **55.27%** (base 4.10%), fallback triggered on 5/100 cases, budget hit on 1/100.
+  - `gemini-4-hydrogen` evaluation (`2f58650627fa8d6a`, [summary.json](../results_v4_5000/deepeval_100_rp1/judgments/2f58650627fa8d6a/summary.json), [paired_confidence_intervals.json](../results_v4_5000/deepeval_100_rp1/judgments/2f58650627fa8d6a/paired_confidence_intervals.json)):
+    - Source fidelity: **0.323 → 0.619** (`+0.296`, 95% BCa CI `[+0.259, +0.331]`, 93W / 3T / 4L).
+    - Source coverage: **0.357 → 0.625** (`+0.268`, 95% BCa CI `[+0.235, +0.298]`, 95W / 2T / 3L).
+- **`v4-1325` (`ca7b6e90c1019441`, 1,325 train, 3 epochs / 498 steps, `checkpoint-498` eval loss `0.3916`):**
+  - `gen_rp=1.00_fb1.08` ([aggregate.json](../results_v4/comparison/finetuned_v4__gen_rp_1.00/aggregate.json)): raw JSON **92/100**, allowed schema **86/100**, strict F1 **29.41%**, soft F1 **42.03%**.
+  - `gemini-4-hydrogen` (`f8c214409451ed92`, [summary.json](../results_v4/deepeval_100_rp1/judgments/f8c214409451ed92/summary.json)): fidelity **0.323 → 0.537** (`+0.214`), coverage **0.357 → 0.561** (`+0.204`).
+- **Local CPU inference CLI:** [scripts/infer_v4_cli.py](../scripts/infer_v4_cli.py) supports `--mode v4-5000`, `--mode finetuned` (`v4-1325`, default), and `--mode baseline`, authenticates via `.env.local`, strips markdown fences, and pretty-prints JSON. Demo clinical notes and regenerated reference outputs are in [input.md](../input.md).
+
 ## V3 regenerated & verified dataset packaged (`ca7b6e90c1019441`) — Ready for training
 
 Updated 23 November 2026. All 1,325 training rows and 100 frozen validation rows from `v3` (`e80798edebe5aba5`) have been regenerated from the raw clinical notes using `gemini-3.8-flash`, deterministically scrubbed, repaired against teacher self-talk/synonym-loop/test-result defects, and packaged into a versioned dataset ready for a controlled label-quality SFT run:
