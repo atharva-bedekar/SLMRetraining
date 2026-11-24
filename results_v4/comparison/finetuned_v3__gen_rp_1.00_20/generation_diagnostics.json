@@ -1,0 +1,222 @@
+{
+  "validation:593": {
+    "prompt_tokens": 663,
+    "rp1_generated_tokens": 384,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 384,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:1351": {
+    "prompt_tokens": 650,
+    "rp1_generated_tokens": 453,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 453,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:113": {
+    "prompt_tokens": 692,
+    "rp1_generated_tokens": 589,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 589,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:937": {
+    "prompt_tokens": 672,
+    "rp1_generated_tokens": 191,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 191,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:1953": {
+    "prompt_tokens": 662,
+    "rp1_generated_tokens": 346,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 346,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:1812": {
+    "prompt_tokens": 691,
+    "rp1_generated_tokens": 389,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 389,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:1630": {
+    "prompt_tokens": 672,
+    "rp1_generated_tokens": 428,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 428,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:1388": {
+    "prompt_tokens": 670,
+    "rp1_generated_tokens": 253,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 253,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:128": {
+    "prompt_tokens": 654,
+    "rp1_generated_tokens": 415,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 415,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:725": {
+    "prompt_tokens": 654,
+    "rp1_generated_tokens": 315,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 315,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:302": {
+    "prompt_tokens": 680,
+    "rp1_generated_tokens": 2048,
+    "rp1_reached_budget": true,
+    "fallback_to_gen_rp_1.08_triggered": true,
+    "generated_tokens": 472,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:1241": {
+    "prompt_tokens": 703,
+    "rp1_generated_tokens": 374,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 374,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:412": {
+    "prompt_tokens": 660,
+    "rp1_generated_tokens": 344,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 344,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:2654": {
+    "prompt_tokens": 673,
+    "rp1_generated_tokens": 373,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 373,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:1133": {
+    "prompt_tokens": 669,
+    "rp1_generated_tokens": 2048,
+    "rp1_reached_budget": true,
+    "fallback_to_gen_rp_1.08_triggered": true,
+    "generated_tokens": 2048,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": true,
+    "ended_with_eos": false
+  },
+  "validation:1628": {
+    "prompt_tokens": 692,
+    "rp1_generated_tokens": 322,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 322,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:1722": {
+    "prompt_tokens": 710,
+    "rp1_generated_tokens": 337,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 337,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:2890": {
+    "prompt_tokens": 662,
+    "rp1_generated_tokens": 251,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 251,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:435": {
+    "prompt_tokens": 636,
+    "rp1_generated_tokens": 157,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 157,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  },
+  "validation:337": {
+    "prompt_tokens": 672,
+    "rp1_generated_tokens": 205,
+    "rp1_reached_budget": false,
+    "fallback_to_gen_rp_1.08_triggered": false,
+    "generated_tokens": 205,
+    "finite_first_token_logits": true,
+    "empty_output": false,
+    "reached_budget": false,
+    "ended_with_eos": true
+  }
+}

@@ -1,8 +1,8 @@
 {
-  "status": "training_in_progress",
-  "session": "clinical-v4-1325",
-  "runtime_endpoint": "gpu-t4-s-usw1b1-2uc6ifh6h0m37",
-  "runtime_url": "https://8080-gpu-t4-s-usw1b1-2uc6ifh6h0m37-b.us-west1.prod.r.colab.dev",
+  "status": "complete",
+  "session": "clinical-v4-1325-resume",
+  "runtime_released": true,
+  "runtime_endpoint": "gpu-t4-s-usw4b1-3auucnikz0bd0",
   "remote_root": "/content/clinical_v4",
   "dataset_version": "ca7b6e90c1019441",
   "source_v3_version": "e80798edebe5aba5",
@@ -12,37 +12,35 @@
   "expected_optimizer_steps": 498,
   "gpu": "Tesla T4",
   "dtype": "float32",
-  "pipeline_pid": 1288,
-  "training_notebook_pid": 1583,
   "completed_stages": [
-    "01_baseline_eval"
+    "01_baseline_eval",
+    "02_finetune",
+    "03_eval_and_compare",
+    "gemini_batch_eval"
   ],
-  "current_stage": "02_finetune",
-  "label_checks": {
-    "train": {
-      "rows": 1325,
-      "min_supervised_tokens": 108,
-      "max_total_tokens": 1459
+  "current_stage": "complete",
+  "training_complete": true,
+  "selected_checkpoint_step": 498,
+  "best_eval_loss": 0.3915749788284302,
+  "completed_v4_100_gen_rp_1.08_cases": 100,
+  "completed_v3_20_gen_rp_1.00_cases": 20,
+  "completed_v4_20_gen_rp_1.00_cases": 20,
+  "comparison_archive_sha256": "db4298625ca1037882a3435dd9f00c96d68cd9881e49a7353fab6a8bd73164a2",
+  "batch_judge_model": "gemini-4-hydrogen",
+  "batch_job_name": "batches/f66s8oxo3ccxtck9dxeflxut5xuzd1e6xmw8",
+  "batch_run_id": "8b852f1592dfcc99",
+  "batch_measurements_saved": 400,
+  "mean_scores": {
+    "Source fidelity": {
+      "baseline": 0.323,
+      "finetuned": 0.523,
+      "delta": 0.2
     },
-    "validation": {
-      "rows": 100,
-      "min_supervised_tokens": 146,
-      "max_total_tokens": 1363
+    "Source coverage": {
+      "baseline": 0.357,
+      "finetuned": 0.56,
+      "delta": 0.203
     }
   },
-  "model_checks": {
-    "longest_case_id": "train:1114",
-    "total_tokens": 1459,
-    "initial_loss": 1.6065199375152588,
-    "finite_gradients": true,
-    "peak_allocated_gib": 7.499,
-    "gpu": "Tesla T4"
-  },
-  "last_observed_training_step": 110,
-  "last_observed_training_epoch": 0.6642,
-  "last_observed_training_loss": 0.4434,
-  "training_checkpoint_steps_backed_up_locally": [],
-  "ping_interval_seconds": 540,
-  "last_successful_ping_utc": "2026-11-23T09:07:09+00:00",
-  "next_check_planned_utc": "2026-11-23T09:16:09+00:00"
+  "last_updated_utc": "2026-11-23T12:02:00+00:00"
 }

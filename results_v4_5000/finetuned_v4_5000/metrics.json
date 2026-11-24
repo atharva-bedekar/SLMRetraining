@@ -1,0 +1,19 @@
+{
+  "train": {
+    "train_runtime": 10045.1788,
+    "train_samples_per_second": 1.493,
+    "train_steps_per_second": 0.187,
+    "total_flos": 1.0487600060433408e+16,
+    "train_loss": 0.363945858446757,
+    "epoch": 3.0
+  },
+  "best_model_checkpoint": "/content/clinical_v4_5000/results_v4_5000/finetuned_v4_5000/checkpoints/checkpoint-1875",
+  "best_eval_loss": 0.33471301198005676,
+  "final_eval": {
+    "eval_loss": 0.33471301198005676,
+    "eval_runtime": 28.664,
+    "eval_samples_per_second": 3.489,
+    "eval_steps_per_second": 3.489,
+    "epoch": 3.0
+  }
+}

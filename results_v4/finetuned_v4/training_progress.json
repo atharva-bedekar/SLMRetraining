@@ -1,11 +1,12 @@
 {
-  "step": 110,
+  "step": 498,
   "max_steps": 498,
-  "epoch": 0.6641509433962264,
+  "epoch": 3.0,
   "logs": {
-    "loss": 0.4434,
-    "grad_norm": 0.9420598745346069,
-    "learning_rate": 0.00018900704113258165,
-    "epoch": 0.6641509433962264
+    "eval_loss": 0.3915749788284302,
+    "eval_runtime": 33.5372,
+    "eval_samples_per_second": 2.982,
+    "eval_steps_per_second": 2.982,
+    "epoch": 3.0
   }
 }

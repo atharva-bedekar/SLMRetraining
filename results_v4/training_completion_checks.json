@@ -1,0 +1,24 @@
+{
+  "training_complete": true,
+  "dataset_version": "ca7b6e90c1019441",
+  "epochs": 3,
+  "global_step": 498,
+  "train_examples": 1325,
+  "validation_examples": 100,
+  "epoch_1_eval_loss": 0.4318791329860687,
+  "epoch_2_eval_loss": 0.3973955512046814,
+  "epoch_3_eval_loss": 0.3915749788284302,
+  "best_eval_loss": 0.3915749788284302,
+  "selected_checkpoint": "checkpoint-498",
+  "checkpoints_retained_locally": [
+    166,
+    332,
+    498
+  ],
+  "selected_adapter_tensors": 252,
+  "adapter_tensors_finite": true,
+  "adapter_matches_selected_checkpoint_exactly": true,
+  "executed_training_code_cells": 4,
+  "notebook_errors": 0,
+  "baseline_cases_preserved": 100
+}

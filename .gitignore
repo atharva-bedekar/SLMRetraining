@@ -28,3 +28,6 @@ prepared_clinical_dataset/3f8f10951130896b/dataset/train/data-00000-of-00001.arr
 prepared_clinical_dataset/ca7b6e90c1019441/
 prepared_clinical_dataset/latest_v3_regenerated.json
 prepared_clinical_dataset/v3_regenerated_gemini_3_8_flash/
+prepared_clinical_dataset/0d520299c998a045/
+prepared_clinical_dataset/latest_v4_5000.json
+prepared_clinical_dataset/v4_5000_regenerated_gemini_3_8_flash/

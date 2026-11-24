@@ -1,0 +1,11 @@
+{
+  "job_name": "batches/f66s8oxo3ccxtck9dxeflxut5xuzd1e6xmw8",
+  "model": "gemini-4-hydrogen",
+  "run_id": "8b852f1592dfcc99",
+  "submitted_at_utc": "2026-11-23T11:55:56.215612+00:00",
+  "state": "JOB_STATE_SUCCEEDED",
+  "requests_count": 400,
+  "requests_sha256": "0e2b4f4102a99a293af64c85c9a03de6a27a07126ed471f537cac92f073cc18c",
+  "last_checked_at_utc": "2026-11-23T12:01:01.394319+00:00",
+  "done": true
+}

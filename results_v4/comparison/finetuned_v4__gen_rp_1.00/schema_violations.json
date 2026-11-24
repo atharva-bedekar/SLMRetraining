@@ -1,0 +1,103 @@
+[
+  {
+    "case_id": "validation:474",
+    "parse_valid": true,
+    "issues": [
+      "medical examinations[4]: disallowed key time",
+      "medical examinations[4]: disallowed key reaction to treatment"
+    ]
+  },
+  {
+    "case_id": "validation:1180",
+    "parse_valid": true,
+    "issues": [
+      "medical examinations[0]: disallowed key location",
+      "medical examinations[0]: disallowed key details"
+    ]
+  },
+  {
+    "case_id": "validation:951",
+    "parse_valid": true,
+    "issues": [
+      "missing top-level keys: ['medical examinations', 'diagnosis tests', 'treatments']"
+    ]
+  },
+  {
+    "case_id": "validation:436",
+    "parse_valid": false,
+    "issues": [
+      "Unterminated string starting at: line 1 column 11612 (char 11611)"
+    ]
+  },
+  {
+    "case_id": "validation:2571",
+    "parse_valid": false,
+    "issues": [
+      "Unterminated string starting at: line 1 column 10837 (char 10836)"
+    ]
+  },
+  {
+    "case_id": "validation:1801",
+    "parse_valid": false,
+    "issues": [
+      "Expecting ',' delimiter: line 1 column 1525 (char 1524)"
+    ]
+  },
+  {
+    "case_id": "validation:26",
+    "parse_valid": true,
+    "issues": [
+      "medical examinations[5]: disallowed key reaction to treatment"
+    ]
+  },
+  {
+    "case_id": "validation:1815",
+    "parse_valid": false,
+    "issues": [
+      "Unterminated string starting at: line 1 column 9807 (char 9806)"
+    ]
+  },
+  {
+    "case_id": "validation:912",
+    "parse_valid": true,
+    "issues": [
+      "missing top-level keys: ['medical examinations', 'diagnosis tests', 'treatments']"
+    ]
+  },
+  {
+    "case_id": "validation:1256",
+    "parse_valid": false,
+    "issues": [
+      "Unterminated string starting at: line 1 column 10829 (char 10828)"
+    ]
+  },
+  {
+    "case_id": "validation:1522",
+    "parse_valid": false,
+    "issues": [
+      "Unterminated string starting at: line 1 column 9802 (char 9801)"
+    ]
+  },
+  {
+    "case_id": "validation:302",
+    "parse_valid": false,
+    "issues": [
+      "Unterminated string starting at: line 1 column 6526 (char 6525)"
+    ]
+  },
+  {
+    "case_id": "validation:239",
+    "parse_valid": true,
+    "issues": [
+      "medical examinations[6]: disallowed key location",
+      "medical examinations[6]: disallowed key details"
+    ]
+  },
+  {
+    "case_id": "validation:979",
+    "parse_valid": false,
+    "issues": [
+      "Unterminated string starting at: line 1 column 7917 (char 7916)"
+    ]
+  }
+]

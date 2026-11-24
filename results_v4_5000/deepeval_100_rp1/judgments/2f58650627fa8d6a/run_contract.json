@@ -1,0 +1,9 @@
+{
+  "selection_sha256": "11b2976ea645ec644f42d9b40d1de72422a64744b1f0c1eef8e7deb19bd796fc",
+  "pairs_sha256": "5a6ed2b4395b979ec6123a2add9a6e684153c6f811c8bc58761db1a0b01758ee",
+  "backend": "gemini_batch_200_ft_only",
+  "model": "gemini-4-hydrogen",
+  "deepeval_version": "4.3.4",
+  "rubric_version": "source_grounded_v2",
+  "truth_source": "input clinical note"
+}

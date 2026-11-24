@@ -1,0 +1,23 @@
+[
+  {
+    "case_id": "validation:937",
+    "parse_valid": false,
+    "issues": [
+      "Unterminated string starting at: line 1 column 868 (char 867)"
+    ]
+  },
+  {
+    "case_id": "validation:2890",
+    "parse_valid": true,
+    "issues": [
+      "treatments[3]: disallowed key details"
+    ]
+  },
+  {
+    "case_id": "validation:2308",
+    "parse_valid": false,
+    "issues": [
+      "Expecting ',' delimiter: line 2 column 1 (char 1118)"
+    ]
+  }
+]

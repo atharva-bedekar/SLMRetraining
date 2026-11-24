@@ -1,0 +1,60 @@
+{
+  "Source fidelity": {
+    "cases": 100,
+    "baseline_mean": 0.32299999999999995,
+    "finetuned_mean": 0.6190000000000001,
+    "mean_paired_gain": 0.29600000000000004,
+    "ci95_bca": [
+      0.259,
+      0.33099999999999996
+    ],
+    "ci95_percentile": [
+      0.25999999999999995,
+      0.331
+    ],
+    "ci95_paired_t": [
+      0.25956315676398534,
+      0.33243684323601475
+    ],
+    "ci975_bca_bonferroni_two_metrics": [
+      0.253,
+      0.335
+    ],
+    "method": "paired BCa bootstrap",
+    "median_paired_gain": 0.3,
+    "wins": 93,
+    "ties": 3,
+    "losses": 4,
+    "win_fraction_all_cases": 0.93,
+    "positive_gain_interval": true
+  },
+  "Source coverage": {
+    "cases": 100,
+    "baseline_mean": 0.3569999999999999,
+    "finetuned_mean": 0.625,
+    "mean_paired_gain": 0.26799999999999996,
+    "ci95_bca": [
+      0.23499999999999996,
+      0.298
+    ],
+    "ci95_percentile": [
+      0.236,
+      0.299
+    ],
+    "ci95_paired_t": [
+      0.23610755098475864,
+      0.29989244901524126
+    ],
+    "ci975_bca_bonferroni_two_metrics": [
+      0.23,
+      0.30199999999999994
+    ],
+    "method": "paired BCa bootstrap",
+    "median_paired_gain": 0.29999999999999993,
+    "wins": 95,
+    "ties": 2,
+    "losses": 3,
+    "win_fraction_all_cases": 0.95,
+    "positive_gain_interval": true
+  }
+}

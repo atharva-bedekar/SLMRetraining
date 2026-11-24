@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "batch_job_name": "batches/f66s8oxo3ccxtck9dxeflxut5xuzd1e6xmw8",
+  "batch_state": "JOB_STATE_SUCCEEDED",
+  "updated_at_utc": "2026-11-23T12:01:01.394319+00:00",
+  "run_id": "8b852f1592dfcc99",
+  "expected_measurements": 400
+}

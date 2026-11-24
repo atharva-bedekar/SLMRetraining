@@ -1,0 +1,26 @@
+{
+  "complete": true,
+  "backend": "gemini_batch_200_ft_only",
+  "model": "gemini-4-hydrogen",
+  "selected_cases": 100,
+  "paired_test_cases": 200,
+  "measurements": 400,
+  "reused_baseline_run": "8b852f1592dfcc99",
+  "mean_scores": {
+    "Source fidelity": {
+      "baseline": 0.32299999999999995,
+      "finetuned": 0.537
+    },
+    "Source coverage": {
+      "baseline": 0.35700000000000004,
+      "finetuned": 0.561
+    }
+  },
+  "mean_paired_deltas": {
+    "Source fidelity": 0.214,
+    "Source coverage": 0.204
+  },
+  "rubric_version": "source_grounded_v2",
+  "truth_source": "input clinical note",
+  "run_id": "f8c214409451ed92"
+}
